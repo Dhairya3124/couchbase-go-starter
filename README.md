@@ -54,3 +54,8 @@ go mod tidy
 ```bash
 go run main.go
 ```
+**Run the tests**
+
+```bash
+go test ./tests
+``` 
