@@ -42,10 +42,10 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Println(bucketName, connectionString)
+
 	bucket := cluster.Bucket(bucketName)
 
-	err = bucket.WaitUntilReady(5*time.Second, nil)
+	err = bucket.WaitUntilReady(10*time.Second, nil)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -63,18 +63,18 @@ func main() {
 		Interests []string `json:"interests"`
 	}
 
-	_, err = col.Upsert("u:jade",
+	_, err = col.Upsert("u:john",
 		User{
-			Name:      "Jade",
-			Email:     "jade@test-email.com",
-			Interests: []string{"Swimming", "Rowing"},
+			Name:      "John",
+			Email:     "john@test-email.com",
+			Interests: []string{"Basketball", "Rugby"},
 		}, nil)
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	// Get the document back
-	getResult, err := col.Get("u:jade", nil)
+	getResult, err := col.Get("u:john", nil)
 	if err != nil {
 		log.Fatal(err)
 	}
