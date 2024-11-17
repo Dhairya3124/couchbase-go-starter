@@ -3,7 +3,11 @@ module github.com/Dhairya3124/couchbase-go-starter
 go 1.22.3
 
 require (
-	github.com/couchbase/gocb/v2 v2.9.2 // indirect
+	github.com/couchbase/gocb/v2 v2.9.2
+	github.com/joho/godotenv v1.5.1
+)
+
+require (
 	github.com/couchbase/gocbcore/v10 v10.5.2 // indirect
 	github.com/couchbase/gocbcoreps v0.1.3 // indirect
 	github.com/couchbase/goprotostellar v1.0.2 // indirect
@@ -13,7 +17,6 @@ require (
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0 // indirect
-	github.com/joho/godotenv v1.5.1 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.49.0 // indirect
 	go.opentelemetry.io/otel v1.24.0 // indirect
 	go.opentelemetry.io/otel/metric v1.24.0 // indirect
