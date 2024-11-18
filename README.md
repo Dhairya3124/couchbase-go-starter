@@ -59,3 +59,8 @@ go run main.go
 ```bash
 go test ./tests
 ``` 
+#### Contributing
+Contributions are more than welcome! If you encounter any bugs or issues with the application, please open an issue on the GitHub repository. If you would like to contribute code, feel free to open a pull request with your changes. All contributors are expected to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+#### License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
