@@ -16,7 +16,7 @@ This is a sample README.md file for a Couchbase Starter Kit. It includes a templ
 
 | Variable Name                      | Description                                                 |      Default value       |
 |:-----------------------------------|:------------------------------------------------------------|:------------------------:|
-| GO_COUCHBASE_CONNECTION_STRING     | A couchbase connection string                               |            -             |
+| GO_COUCHBASE_CONNECTION_STRING     | A couchbase connection string(starting with couchbases://)  |            -             |
 | GO_COUCHBASE_USERNAME              | Username for authentication with Couchbase                  |            -             |
 | GO_COUCHBASE_PASSWORD              | Password for authentication with Couchbase                  |            -             |
 | COUCHBASE_USE_CAPELLA              | Use to change the connection profile                        |          false           |

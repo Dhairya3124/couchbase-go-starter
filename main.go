@@ -38,7 +38,7 @@ func main() {
 	}
 
 	// Initialize the Connection
-	cluster, err := gocb.Connect("couchbases://"+connectionString, options)
+	cluster, err := gocb.Connect(connectionString, options)
 	if err != nil {
 		log.Fatal(err)
 	}
