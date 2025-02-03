@@ -42,7 +42,7 @@ You will also need an account on Couchbase Capella to create a cluster and obtai
 
 ```bash
 git clone https://github.com/Dhairya3124/couchbase-go-starter.git
-cd URL
+cd couchbase-go-starter
 ```
 **Install dependencies**
 
