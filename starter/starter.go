@@ -62,7 +62,7 @@ func Run() error {
 		Email     string   `json:"email"`
 		Interests []string `json:"interests"`
 	}
-
+	// Upsert 
 	_, err = col.Upsert("u:john",
 		User{
 			Name:      "John",
