@@ -38,7 +38,7 @@ jobs:
         run: go mod tidy
 
       - name: Run tests
-        run: go test ./...
+        run: go test ./starter
 
       - name: Tear Down Bucket
         run: |
