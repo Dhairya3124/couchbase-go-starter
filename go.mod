@@ -1,6 +1,6 @@
 module github.com/Dhairya3124/couchbase-go-starter
 
-go 1.22.3
+go 1.22
 
 require (
 	github.com/couchbase/gocb/v2 v2.9.2
