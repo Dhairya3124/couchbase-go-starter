@@ -5,12 +5,14 @@
 name: Test Connection
 
 on:
+  workflow_dispatch:
+
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 env:
   GO_COUCHBASE_CONNECTION_STRING: ${{ secrets.GO_COUCHBASE_CONNECTION_STRING }}
