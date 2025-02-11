@@ -41,8 +41,3 @@ jobs:
 
       - name: Run tests
         run: go test ./starter
-
-      - name: Tear Down Bucket
-        run: |
-          cb-env bucket $env.COUCHBASE_DEFAULT_BUCKET
-          scopes drop $env.COUCHBASE_DEFAULT_SCOPE
